@@ -1,3 +1,16 @@
 import React from "react"
+import styled from '@emotion/styled'
 
-export default () => <h1>This is contact.</h1>
+const Container = styled.div `
+    height: 100vh;
+    width: 100vw;
+    background: #FF9831;
+    color: #BA83F0;
+`
+
+export default () => 
+    <Container>
+        <h1>
+            This is contact.
+        </h1>
+    </Container>
